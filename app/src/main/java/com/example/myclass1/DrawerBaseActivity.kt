@@ -52,7 +52,9 @@ open class DrawerBaseActivity : AppCompatActivity() {
         container.addView(view)
         super.setContentView(drawerLayout)
 
-        bringParticipant()
+        if (auth.currentUser?.uid != null){
+            bringParticipant()
+        }
 
         val toolbar:Toolbar=drawerLayout.findViewById(R.id.main_toolbar)
         setSupportActionBar(toolbar)
