@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "427392840244",
+    "firebase_url": "https://my-class-ed529-default-rtdb.firebaseio.com",
+    "project_id": "my-class-ed529",
+    "storage_bucket": "my-class-ed529.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:427392840244:android:4f2dad69fa91531fbb9061",
+        "android_client_info": {
+          "package_name": "com.example.myclass1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "427392840244-uhd4g8u17obk9hbihugs0772u183f3ih.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOEiZOpmAO0hMFrytqtgpAchhkY5EZoqk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "427392840244-uhd4g8u17obk9hbihugs0772u183f3ih.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

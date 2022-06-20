@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="8dp"
+    app:cardMaxElevation="5dp"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="16dp"
+    android:backgroundTint="@color/white">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/colorGrey"
+        >
+
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="15dp"
+            android:background="@color/colorGrey"
+            >
+
+            <TextView
+                android:id="@+id/class_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorGrey"
+
+                android:textColor="@color/blue_ligth"
+                android:textSize="26sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+
+                android:background="@color/colorGrey"
+                android:textColor="@color/blue_ligth"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/role_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+
+                android:textColor="#828383"
+                android:background="@color/colorGrey"
+                android:textSize="20sp" />
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/colorGrey">
+
+            <ImageView
+                android:id="@+id/class_menu"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="26dp"
+                android:layout_marginLeft="100dp"
+
+                android:background="@color/colorGrey"
+
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="25dp"
+                >
+
+
+                <ImageButton
+                    android:id="@+id/bt_class_message"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:contentDescription="class message"
+                    android:background="@color/colorGrey"
+
+                    />
+
+                <ImageButton
+                    android:id="@+id/bt_notification_class"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="10dp"
+                    android:contentDescription="class notification"
+
+                    android:background="@color/colorGrey"/>
+                <ImageButton
+                    android:id="@+id/bt_getcode"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="10dp"
+                    android:contentDescription="class code"
+
+                    android:background="@color/colorGrey"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

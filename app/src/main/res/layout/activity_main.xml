@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background__signup"
+    android:clickable="true"
+    android:focusableInTouchMode="true"
+    tools:context=".MainActivity"
+    >
+
+    <TextView
+        android:id="@+id/textView_signin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/rubik_medium"
+        android:gravity="center"
+        android:text="HELLO LOGIN "
+        android:textColor="@color/white"
+        android:textSize="40dp"
+
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/blue_light2"
+        android:layout_marginTop="200dp"
+        app:boxBackgroundColor="@android:color/transparent"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:textColorHint="@color/greyy"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edt_email"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:drawableStart="@drawable/custom_email_icon"
+            android:drawablePadding="18dp"
+            android:inputType="textEmailAddress"
+            android:textSize="16dp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/blue_light2"
+        android:scrollbarSize="25dp"
+        android:textColor="@color/blue_light2"
+        android:textColorHint="@color/greyy"
+        app:boxBackgroundColor="@android:color/transparent"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="@color/blue_light2"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edt_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textSize="16dp"
+            android:drawableStart="@drawable/custom_password_icon"
+            android:drawablePadding="18dp"
+            android:textColor="@color/black"
+
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <TextView
+        android:id="@+id/forget_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="36dp"
+        android:gravity="right"
+        android:text="Forgot password ?"
+        android:textColor="@color/blue_light2"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/btncontinue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/sign_up_bt"
+        android:minHeight="48dp"
+        android:text="Login IN"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:enabled="false"
+
+        />
+    <LinearLayout
+        android:id="@+id/btnSignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/rubik"
+            android:text="Don't have account ? "
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="@color/greyy"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign up"
+            android:textColor="@color/blue_light2"
+            android:fontFamily="@font/rubik_medium"
+            android:textSize="16dp"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

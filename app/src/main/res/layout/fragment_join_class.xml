@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/fragment_join_classe"
+    android:layout_gravity="center_horizontal"
+    tools:context=".JoinClassFragment">
+
+
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="35dp"
+            android:fontFamily="@font/rubik_bold"
+            android:textAlignment="center"
+            android:textColor="@color/blue_light3"
+            android:textSize="20sp"
+            android:text="Join a class"
+            />
+
+        <TextView
+            android:id="@+id/txt_classCodeId2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="45dp"
+            android:fontFamily="@font/rubik_medium"
+            android:text="Class ID"
+            android:textColor="@color/blue_light2"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/edt_classCodeId2"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_below="@+id/txt_classname_create"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/edt_signup_background"
+            android:hint="Classs ID"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textColorHint="#A5ADAF"
+            android:textSize="15sp"/>
+
+
+
+
+
+        <Button
+            android:id="@+id/btn_join"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/edt_confirmsecretcode"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/bt_continue"
+            android:backgroundTint="@color/blue_light3"
+            android:fontFamily="@font/rubik_bold"
+            android:text="Join"
+
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+
+</LinearLayout>

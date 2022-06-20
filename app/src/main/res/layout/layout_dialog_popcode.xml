@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/shape"
+        android:elevation="10dp"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="19dp"
+            android:fontFamily="@font/rubik_bold"
+            android:text="Your Class Code"
+            android:textAlignment="center"
+            android:textColor="@color/blue_light3"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/codeoftheclass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt1"
+            android:layout_marginTop="35dp"
+            android:fontFamily="@font/rubik_medium"
+            android:text="Class Name"
+            android:textAlignment="center"
+            android:textColor="#2A2A2A"
+            android:textSize="30sp" />
+
+
+        <Button
+            android:id="@+id/copycode"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/bt_continue"
+            android:backgroundTint="@color/blue_light3"
+            android:fontFamily="@font/rubik_bold"
+            android:text="Copy Code"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
